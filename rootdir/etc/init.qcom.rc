@@ -866,7 +866,6 @@ service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     class late_start
     user root
     group root system wakelock graphics
-    disabled
     oneshot
 
 service qti-testscripts /system/bin/sh /system/etc/init.qcom.testscripts.sh
